@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  gap: 50px;
+  background-color: #000;
+  position: relative;
+  width: 847px;
+  height: 1014px;
+  margin: auto;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.background {
+  position: absolute;
+  width: 350px;
+  height: 434px;
+}
+
+.content {
+  position: absolute;
+  width: 350px;
+  height: 180px;
+}
+
+.discount {
+  position: absolute;
+  top: -10px;
+  left: -17px;
+}
+
+.discount p {
+  position: absolute;
+  top: 30px;
+  left: 17px;
+  color: rgb(255, 255, 255);
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  transform: rotate(-45deg);
+}
+
+.product-image {
+  position: absolute;
+  left: 50px;
+  top: -20.77px;
+}
+
+.card-content {
+  position: absolute;
+  width: 290px;
+  height: 58px;
+  left: 30px;
+  top: 210px;
+}
+
+.card-content h2 {
+  color: rgb(0, 0, 0);
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.identifier-number {
+  position: absolute;
+  width: 290px;
+  height: 25px;
+  left: 30px;
+  top: 283px;
+  color: rgb(128, 128, 128);
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.identifier-number::before {
+  content: "Identifier number";
+}
+
+.card-footer {
+  position: absolute;
+  width: 290px;
+  height: 22px;
+  left: 0;
+  top: 330px;
+  color: rgb(128, 128, 128);
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration-line: line-through;
+}
+
+.prices {
+  position: absolute;
+  width: 200px;
+  height: 74px;
+  left: 90px;
+  right: 30px;
+  top: 5px;
+  bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 14px;
+}
+
+.new-price {
+  font-size: 20px;
+  color: #a40000;
+  font-weight: bold;
+}
+
+.add-to-cart img {
+  width: 24px; /* Ширина иконки корзины */
+  height: 24px; /* Высота иконки корзины */
+  position: absolute;
+  width: 45px;
+  height: 31px;
+  left: 28px;
+  right: 277px;
+  top: 20px;
+}
